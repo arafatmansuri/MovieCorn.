@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(31, 30, 30, 0.94);
+    justify-content: center;
+    
+}
+nav{
+    font-size: 20pt;
+    font-weight: 500;
+    height: 30px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left:90px;
+}
+.c{
+    color: gold;
+}
+.frm{
+    background-color: rgb(80, 76, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    gap: 10px;
+}
+.frm input[type="text"]{
+    height: 40px;
+    width: 300px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    color: black;
+    padding: 5px;
+    
+}
+button{
+    /* padding: 5px; */
+    height: 50px;
+    width: 50px;
+    /* background: none; */
+    border-radius: 5px;
+    border: none;
+    transition: all ease-in 0.2s;
+    &:hover{
+       background: black; 
+    }
+}
+button > img{
+    height: 30px;
+    width: 30px;
+    background: none;
+    
+}
+.result{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: max-content;
+    gap: 100px;
+}
+
+.SrcImg>img{
+    border: 5px solid white;
+    height: 350px;
+    width: 260px;
+    padding-top: 0;
+}
+.anime{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: max-content;
+    gap: 100px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+.line2{
+    display: flex;
+    gap: 8px;
+    &>div>span{
+        font-weight: 500;
+    }
+}
+.info{
+    
+    margin-top: -60px;
+    line-height: 45px;
+    text-wrap: wrap;
+    font-size: 10pt;
+}
+.info>div>span{
+    font-weight: 500;
+}
+.plot{
+    text-wrap: wrap;
+}
